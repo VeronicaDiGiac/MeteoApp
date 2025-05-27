@@ -172,7 +172,7 @@ export class WeatherCardComponent implements OnInit {
       `${window.innerHeight * 0.01}px`
     );
   }
-
+  // TODO: calcolare eventuali fusorari
   setNightTime(): void {
     const updateNightTime = () => {
       const currentTime = new Date().getUTCHours();
